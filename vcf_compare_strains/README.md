@@ -12,7 +12,7 @@ usage: vcf_compare_strains.py [-h] -r REF [--minqual MINQUAL]
 ```
 
 This script is under development and the output is currently for debug purposes only:
-```
+ 
 | SNP              | Samples  | Reference     | Other samples                       | 
 |------------------|---|-----|------------------------| 
 | =U00096:3645:G   | 2 | [A] | sample1[A]             | 
@@ -34,4 +34,4 @@ This script is under development and the output is currently for debug purposes 
 | =U00096:402007:C | 3 | [T] | sample1[T] sample2[T]  | 
 | =U00096:410666:C | 2 | [T] | sample2[T]             | 
 
-```
+ 
