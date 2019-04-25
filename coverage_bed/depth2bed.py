@@ -14,6 +14,18 @@ def print_buffer(chrname, start, end, covarray):
         avg = mean(covarray)
         print('{}\t{}\t{}\tAVG={:0.5f}'.format(chrname, start, end, avg))
 
+def get_fasta_chromosomes(filename):
+    chromosomes = []
+    try:
+        fasta_file = open(filename)
+        for line in fasta_file.readlines():
+            if line[0]=='>':
+                chromosomes.append(line[1:].rstrip().split("\t")[0].split(" ")[0])
+    except Exception as e:
+        if opt.verbose:
+            eprint("Warning: unable to load {}".format(filename))
+    return chromosomes
+    
     
 opt_parser = argparse.ArgumentParser(description='"samtools depth" to bed')
 
@@ -52,6 +64,13 @@ chr_start = None
 pos_start = None
 pos_end   = None
 cov_array = []
+
+if opt.ref:
+    chromosomes = get_fasta_chromosomes(opt.ref)
+    if len(chromosomes)<1:
+        eprint("Error: {} file has no FASTA sequences".format(opt.ref))
+        exit(1)
+
 for line in opt.input.readlines():
     #$chromosome_name, $position, $coverage
     line_no += 1
@@ -59,6 +78,7 @@ for line in opt.input.readlines():
         continue
     cols = line.rstrip().split('\t')
 
+    
     if len(cols) < 3:
         eprint('Line {} error: less than 3 cols and no #comment:\n{}'.format(line_no,line))
         if not opt.skiperrors:
@@ -74,6 +94,10 @@ for line in opt.input.readlines():
             exit(2)
         continue
 
+    if opt.ref and not cols[0] in chromosomes:
+        eprint("Line {} error: {} was not found in (--ref) {}".format(line_no, cols[0], opt.ref))
+        exit(2) 
+        
     if chr_start != None and cols[0] != chr_start:
         print_buffer(chr_start, pos_start, pos_end, cov_array)
         chr_start = None
