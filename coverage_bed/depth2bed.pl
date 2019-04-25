@@ -30,6 +30,8 @@ print STDERR "
  samtools depth -a {BAMFILE} | $0 -min {COV} -max {COV} -len {MINSPAN}
  or:
  $0 -min {COV} -max {COV} -len {MINSPAN} -i INPUTFILE
+ 
+ [[WARNING: Average is miscalculated in this version]]
 ";
 exit;	
 } elsif ($opt_min == 0 and $opt_max == 2_000_000_000) {
@@ -71,7 +73,7 @@ while (my $line = <STDIN> ) {
 
 		if ( ! defined $start ) {
 			$start = $position - 1;
-			push(@cov, $coverage);
+			push(@cov, $coverage); #TODO: Check average array for bugs
 		}
 
 	} else {
