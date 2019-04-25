@@ -13,6 +13,7 @@ def print_buffer(chrname, start, end, covarray):
     if not chrname == None and (end-start)>=opt.minlen:
         avg = mean(covarray)
         print('{}\t{}\t{}\tAVG={:0.5f}'.format(chrname, start, end, avg))
+
     
 opt_parser = argparse.ArgumentParser(description='"samtools depth" to bed')
 
@@ -37,7 +38,8 @@ opt_parser.add_argument('-l', '--minlen',
                         default=1)
 opt_parser.add_argument('--skiperrors',
                         help='Skip bad formatted lines, without exiting',
-                        action='store_true'   )                    
+                        action='store_true'   )     
+                                        
 opt_parser.add_argument('-v', '--verbose',
                         help='Increase output verbosity',
                         action='store_true')
@@ -77,6 +79,7 @@ for line in opt.input.readlines():
         chr_start = None
         pos_start = None
         pos_end = None
+        cov_array = []
         
     if cov >= opt.mincov and cov < opt.maxcov:
         
