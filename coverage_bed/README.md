@@ -23,6 +23,9 @@ optional arguments:
   -v, --verbose         Increase output verbosity
 
 ```
+
+### Sample input and output
+
 Example input (generated with _samtools depth -a BAMFILE_):
 ```
 #Comment
@@ -57,10 +60,14 @@ U00096	15	17
 U00096	16	17
 ```
 
-Example output (depth2cov.py --mincov 10 --maxcov 100 --len 5 -i INPUTFILE)
+Example output (_depth2cov.py --mincov 10 --maxcov 100 --len 5 -i INPUTFILE_)
 ```
 A00011	3	6	AVG=20.00000
 A00011	9	16	AVG=17.00000
 U00096	3	6	AVG=25.00000
 U00096	9	16	AVG=17.00000
 ```
+
+### Running test
+
+A small Bash script called (*run_mini_test.sh*) performs basic tests. Will return non-zero status if a test fails
