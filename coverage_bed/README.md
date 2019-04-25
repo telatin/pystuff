@@ -1,4 +1,4 @@
-# Samtools Depth 2 Coverabe (BED)
+# Samtools Depth 2 Coverage (BED)
 
 A tool to produce a bed file from the output of 'samtools depth [-a]'
 
