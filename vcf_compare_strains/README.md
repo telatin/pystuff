@@ -34,4 +34,6 @@ This script is under development and the output is currently for debug purposes 
 | =U00096:402007:C | 3 | [T] | sample1[T] sample2[T]  | 
 | =U00096:410666:C | 2 | [T] | sample2[T]             | 
 
+ SNPs marked as "=" are found both in the _reference_ strain and in the _derived_ strains.
  
+ SNPs marked as "\*" are different in the _derived_ strain, if compared with the _reference strains_
