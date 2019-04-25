@@ -1,0 +1,50 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20190423
+##source=freeBayes v1.2.0-dirty
+##reference=reference/ref.fa
+##contig=<ID=U00096,length=4641652>
+##phasing=none
+##commandline="freebayes -p 2 -P 0 -C 10 --min-repeat-entropy 1.5 --strict-vcf -q 13 -m 60 --min-coverage 10 -F 0.05 -f reference/ref.fa snps.bam --region U00096:0-674154"
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth at the locus">
+##INFO=<ID=RO,Number=1,Type=Integer,Description="Count of full observations of the reference haplotype.">
+##INFO=<ID=AO,Number=A,Type=Integer,Description="Count of full observations of this alternate haplotype.">
+##INFO=<ID=QR,Number=1,Type=Integer,Description="Reference allele quality sum in phred">
+##INFO=<ID=QA,Number=A,Type=Integer,Description="Alternate allele quality sum in phred">
+##INFO=<ID=AB,Number=A,Type=Float,Description="Allele balance at heterozygous sites: a number between 0 and 1 representing the ratio of reads showing the reference allele to all reads, considering only reads from individuals called as heterozygous">
+##INFO=<ID=TYPE,Number=A,Type=String,Description="The type of allele, either snp, mnp, ins, del, or complex.">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GL,Number=G,Type=Float,Description="Genotype Likelihood, log10-scaled likelihoods of the data given the called genotype for each possible genotype generated from the reference and alternate alleles given the sample ploidy">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count">
+##FORMAT=<ID=QR,Number=1,Type=Integer,Description="Sum of quality of the reference observations">
+##FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count">
+##FORMAT=<ID=QA,Number=A,Type=Integer,Description="Sum of quality of the alternate observations">
+##bcftools_viewVersion=1.9+htslib-1.9
+##bcftools_viewCommand=view --include 'FMT/GT="1/1" && QUAL>=100 && FMT/DP>=10 && (FMT/AO)/(FMT/DP)>=0' snps.raw.vcf; Date=Tue Apr 23 14:59:12 2019
+##bcftools_annotateVersion=1.9+htslib-1.9
+##bcftools_annotateCommand=annotate --remove ^INFO/TYPE,^INFO/DP,^INFO/RO,^INFO/AO,^INFO/AB,^FORMAT/GT,^FORMAT/DP,^FORMAT/RO,^FORMAT/AO,^FORMAT/QR,^FORMAT/QA,^FORMAT/GL; Date=Tue Apr 23 14:59:12 2019
+##SnpEffVersion="4.3t (build 2017-11-24 10:18), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  -noStats -no-downstream -no-upstream -no-utr ref snps.filt.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	snippy
+U00096	3645	.	G	A	404.214	.	AB=0;AO=13;DP=13;QA=468;QR=0;RO=0;TYPE=snp;ANN=A|stop_gained|HIGH|b0003|GENE_b0003|transcript|TRANSCRIPT_b0003|protein_coding|1/1|c.845G>A|p.Trp282*|845/933|845/933|282/310||	GT:DP:RO:QR:AO:QA:GL	1/1:13:0:0:13:468:-42.458,-3.91339,0
+U00096	71170	.	T	C	713.696	.	AB=0;AO=24;DP=24;QA=831;QR=0;RO=0;TYPE=snp;ANN=C|missense_variant|MODERATE|b0064|GENE_b0064|transcript|TRANSCRIPT_b0064|protein_coding|1/1|c.784T>C|p.Ser262Pro|784/879|784/879|262/292||	GT:DP:RO:QR:AO:QA:GL	1/1:24:0:0:24:831:-75.0956,-7.22472,0
+U00096	81044	.	C	T	955.179	.	AB=0;AO=33;DP=33;QA=1102;QR=0;RO=0;TYPE=snp;ANN=T|synonymous_variant|LOW|b0073|GENE_b0073|transcript|TRANSCRIPT_b0073|protein_coding|1/1|c.915G>A|p.Leu305Leu|915/1092|915/1092|305/363||	GT:DP:RO:QR:AO:QA:GL	1/1:33:0:0:33:1102:-99.4673,-9.93399,0
+U00096	81102	.	G	A	1045.9	.	AB=0;AO=37;DP=37;QA=1199;QR=0;RO=0;TYPE=snp;ANN=A|missense_variant|MODERATE|b0073|GENE_b0073|transcript|TRANSCRIPT_b0073|protein_coding|1/1|c.857C>T|p.Ser286Leu|857/1092|857/1092|286/363||	GT:DP:RO:QR:AO:QA:GL	1/1:37:0:0:37:1199:-108.186,-11.1381,0
+U00096	85203	.	C	T	566.284	.	AB=0;AO=20;DP=22;QA=715;QR=62;RO=2;TYPE=snp;ANN=T|missense_variant|MODERATE|b0076|GENE_b0076|transcript|TRANSCRIPT_b0076|protein_coding|1/1|c.836C>T|p.Pro279Leu|836/945|836/945|279/314||	GT:DP:RO:QR:AO:QA:GL	1/1:22:2:62:20:715:-58.7831,-0.735358,0
+U00096	154182	.	C	T	1149.37	.	AB=0;AO=40;DP=41;QA=1332;QR=0;RO=0;TYPE=snp;ANN=T|synonymous_variant|LOW|b0139|GENE_b0139|transcript|TRANSCRIPT_b0139|protein_coding|1/1|c.1245G>A|p.Leu415Leu|1245/2598|1245/2598|415/865||	GT:DP:RO:QR:AO:QA:GL	1/1:41:0:0:40:1332:-120.01,-12.0412,0
+U00096	156068	.	A	G	1276.8	.	AB=0;AO=41;DP=41;QA=1451;QR=0;RO=0;TYPE=snp;ANN=G|missense_variant|MODERATE|b0140|GENE_b0140|transcript|TRANSCRIPT_b0140|protein_coding|1/1|c.134T>C|p.Val45Ala|134/741|134/741|45/246||	GT:DP:RO:QR:AO:QA:GL	1/1:41:0:0:41:1451:-130.875,-12.3422,0
+U00096	223560	.	T	A	818.703	.	AB=0;AO=26;DP=26;QA=935;QR=0;RO=0;TYPE=snp;ANN=A|intergenic_region|MODIFIER|b0200-rrsH|GENE_b0200-rrsH|intergenic_region|GENE_b0200-rrsH|||n.223560T>A||||||	GT:DP:RO:QR:AO:QA:GL	1/1:26:0:0:26:935:-84.4608,-7.82678,0
+U00096	246985	.	C	T	909.928	.	AB=0;AO=30;DP=30;QA=1041;QR=0;RO=0;TYPE=snp;ANN=T|missense_variant|MODERATE|b0227|GENE_b0227|transcript|TRANSCRIPT_b0227|protein_coding|1/1|c.274C>T|p.Pro92Ser|274/750|274/750|92/249||	GT:DP:RO:QR:AO:QA:GL	1/1:30:0:0:30:1041:-93.9919,-9.0309,0
+U00096	284535	.	T	G	661.425	.	AB=0;AO=21;DP=21;QA=758;QR=0;RO=0;TYPE=snp;ANN=G|synonymous_variant|LOW|b0269|GENE_b0269|transcript|TRANSCRIPT_b0269|protein_coding|1/1|c.1335T>G|p.Ala445Ala|1335/1968|1335/1968|445/655||	GT:DP:RO:QR:AO:QA:GL	1/1:21:0:0:21:758:-68.5443,-6.32163,0
+U00096	292019	.	C	T	1420.06	.	AB=0;AO=49;DP=51;QA=1643;QR=34;RO=1;TYPE=snp;ANN=T|synonymous_variant|LOW|b0276|GENE_b0276|transcript|TRANSCRIPT_b0276|protein_coding|1/1|c.520C>T|p.Leu174Leu|520/732|520/732|174/243||	GT:DP:RO:QR:AO:QA:GL	1/1:51:1:34:49:1643:-144.827,-11.8925,0
+U00096	309381	.	C	T	1076.91	.	AB=0;AO=35;DP=35;QA=1228;QR=0;RO=0;TYPE=snp;ANN=T|missense_variant|MODERATE|b0292|GENE_b0292|transcript|TRANSCRIPT_b0292|protein_coding|1/1|c.646G>A|p.Asp216Asn|646/669|646/669|216/222||	GT:DP:RO:QR:AO:QA:GL	1/1:35:0:0:35:1228:-110.816,-10.5361,0
+U00096	309985	.	T	A	920.811	.	AB=0;AO=31;DP=31;QA=1052;QR=0;RO=0;TYPE=snp;ANN=A|synonymous_variant|LOW|b0292|GENE_b0292|transcript|TRANSCRIPT_b0292|protein_coding|1/1|c.42A>T|p.Gly14Gly|42/669|42/669|14/222||	GT:DP:RO:QR:AO:QA:GL	1/1:31:0:0:31:1052:-94.9715,-9.33193,0
+U00096	366551	.	G	T	31167.1	.	AB=0;AO=1088;DP=1122;QA=36475;QR=941;RO=28;TYPE=snp;ANN=T|synonymous_variant|LOW|b0345|GENE_b0345|transcript|TRANSCRIPT_b0345|protein_coding|1/1|c.960C>A|p.Pro320Pro|960/1083|960/1083|320/360||	GT:DP:RO:QR:AO:QA:GL	1/1:1122:28:941:1088:36475:-3196.66,-251.237,0
+U00096	366677	.	G	A	59691.4	.	AB=0;AO=2041;DP=2075;QA=68629;QR=715;RO=22;TYPE=snp;ANN=A|synonymous_variant|LOW|b0345|GENE_b0345|transcript|TRANSCRIPT_b0345|protein_coding|1/1|c.834C>T|p.Asp278Asp|834/1083|834/1083|278/360||	GT:DP:RO:QR:AO:QA:GL	1/1:2075:22:715:2041:68629:-6109.49,-556.607,0
+U00096	367019	.	T	C	87398.9	.	AB=0;AO=2971;DP=3007;QA=98299;QR=743;RO=23;TYPE=snp;ANN=C|synonymous_variant|LOW|b0345|GENE_b0345|transcript|TRANSCRIPT_b0345|protein_coding|1/1|c.492A>G|p.Glu164Glu|492/1083|492/1083|164/360||	GT:DP:RO:QR:AO:QA:GL	1/1:3007:23:743:2971:98299:-8776.1,-834.341,0
+U00096	367510	.	C	T	20398.8	.	AB=0;AO=836;DP=861;QA=28092;QR=745;RO=22;TYPE=snp;ANN=T|initiator_codon_variant|LOW|b0345|GENE_b0345|transcript|TRANSCRIPT_b0345|protein_coding|1/1|c.1G>A|p.Val1?|1/1083|1/1083|1/360||	GT:DP:RO:QR:AO:QA:GL	1/1:861:22:745:836:28092:-2460.17,-191.119,0
+U00096	402007	.	C	T	577.501	.	AB=0;AO=20;DP=20;QA=687;QR=0;RO=0;TYPE=snp;ANN=T|synonymous_variant|LOW|b0383|GENE_b0383|transcript|TRANSCRIPT_b0383|protein_coding|1/1|c.261C>T|p.Ala87Ala|261/1416|261/1416|87/471||	GT:DP:RO:QR:AO:QA:GL	1/1:20:0:0:20:687:-62.1437,-6.0206,0
