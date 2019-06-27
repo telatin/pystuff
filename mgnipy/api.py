@@ -4,7 +4,7 @@ import pprint
 import sys
 import re
 
-query = 'uminoc'
+query = 'gnavus'
 
 def data_from_remote_json(url):
     try:
@@ -38,7 +38,11 @@ def print_analyses(study_id):
             lines   = print_taxonomy(exp['relationships']['taxonomy']['links']['related'], query)
             sulines = print_taxonomy(taxurl, query, '-')
             if len(lines) > 0 or len(sulines) > 0:
-                print('## {}\t{}\t{}\t{}'.format(exp['attributes']['accession'],exp['attributes']['experiment-type'],exp['attributes']['instrument-platform'], taxurl))
+                print('## [{}]({})\t{}\t{}\n'.format( 
+                        exp['attributes']['accession'],
+                        taxurl,
+                        exp['attributes']['experiment-type'],
+                        exp['attributes']['instrument-platform']))
                 print(lines)
                 print(sulines)
             
