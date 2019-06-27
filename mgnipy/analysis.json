@@ -1,0 +1,1480 @@
+{'data': [{'attributes': {'accession': 'MGYA00375916',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '6060'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '6060'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '6060'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '6060'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '6044'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '16'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '5542'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '19563'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '14313'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '51737'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375916',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782882',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782882'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927152',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927152'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375916/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375917',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '12451'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '12451'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '12451'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '12451'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '12402'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '36'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '10149'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '37087'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '26130'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '93792'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375917',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782883',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782883'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927202',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927202'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375917/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375918',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '1301'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '1301'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '1301'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '1301'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '1295'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '9'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '1152'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '3263'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '2520'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '9209'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375918',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782884',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782884'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927205',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927205'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375918/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375919',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '689'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '689'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '689'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '689'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '678'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '4'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '609'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '3159'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '2561'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '10341'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375919',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782885',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782885'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927121',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927121'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375919/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375920',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '6938'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '6938'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '6938'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '6938'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '6897'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '37'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '6399'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '23267'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '18575'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '71527'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375920',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782886',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782886'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927144',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927144'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375920/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375921',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '1116'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '1116'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '1116'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '1116'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '1110'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '4'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '1055'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '2695'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '2328'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '9431'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375921',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782887',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782887'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927164',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927164'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375921/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375922',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '12877'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '12877'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '12877'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '12877'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '12818'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '41'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '11846'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '37789'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '30051'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '109393'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375922',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782888',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782888'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927134',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927134'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375922/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375923',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '3162'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '3162'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '3162'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '3162'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '3141'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '11'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '2499'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '11282'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '8420'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '31700'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375923',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782889',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782889'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927222',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927222'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375923/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375924',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '27567'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '27567'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '27567'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '27567'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '27488'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '85'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '23972'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '62702'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '45905'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '144019'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375924',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782890',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782890'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927172',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927172'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375924/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375925',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '7671'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '7671'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '7671'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '7671'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '7661'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '15'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '6509'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '17405'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '11992'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '38833'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375925',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782891',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782891'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927169',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927169'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375925/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375926',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '634'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '634'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '634'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '634'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '630'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '2'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '598'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '2764'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '2322'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '10112'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375926',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782892',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782892'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927158',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927158'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375926/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375927',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '5776'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '5776'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '5776'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '5776'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '5764'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '14'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '5084'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '16504'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '11864'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '41600'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375927',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782893',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782893'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927139',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927139'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375927/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375928',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '21006'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '21006'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '21006'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '21006'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '20958'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '61'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '18678'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '56785'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '43582'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '143746'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375928',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782894',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782894'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927133',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927133'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375928/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375929',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '3299'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '3299'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '3299'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '3299'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '3284'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '12'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '2904'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '14179'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '11070'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '41857'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375929',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782895',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782895'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927170',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927170'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375929/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375930',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '7542'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '7542'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '7542'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '7542'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '7507'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '37'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '6707'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '21921'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '16552'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '57301'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375930',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782896',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782896'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927141',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927141'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375930/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375931',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '7369'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '7369'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '7369'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '7369'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '7353'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '21'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '6266'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '15250'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '10584'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '33079'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375931',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782897',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782897'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927131',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927131'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375931/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375932',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '8273'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '8273'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '8273'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '8273'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '8245'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '21'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '7085'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '23584'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '16887'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '60451'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375932',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782898',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782898'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927212',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927212'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375932/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375933',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '5498'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '5498'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '5498'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '5498'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '5466'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '34'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '4944'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '12447'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '9609'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '32640'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375933',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782899',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782899'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927156',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927156'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375933/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375934',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '7933'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '7933'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '7933'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '7933'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '7903'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '34'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '6869'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '20770'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '14833'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '48713'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375934',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782900',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782900'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927229',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927229'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375934/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375935',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '5109'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '5109'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '5109'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '5109'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '5083'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '24'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '4585'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '14300'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '11181'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '39367'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375935',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782901',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782901'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927206',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927206'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375935/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375936',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '3189'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '3189'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '3189'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '3189'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '3170'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '14'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '2940'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '8171'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '6755'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '26644'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375936',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782902',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782902'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927142',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927142'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375936/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375937',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '3309'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '3309'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '3309'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '3309'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '3294'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '12'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '2822'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '13568'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '10313'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '37660'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375937',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782903',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782903'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927208',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927208'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375937/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375938',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '2642'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '2642'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '2642'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '2642'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '2622'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '23'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '2408'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '19843'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '15394'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '62304'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375938',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782904',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782904'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927151',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927151'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375938/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375939',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '2590'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '2590'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '2590'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '2590'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '2572'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '26'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '2371'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '7315'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '5620'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '19271'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375939',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782905',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782905'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927162',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927162'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375939/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'},
+          {'attributes': {'accession': 'MGYA00375940',
+                          'analysis-status': 'completed',
+                          'analysis-summary': [{'key': 'Submitted nucleotide '
+                                                       'sequences',
+                                                'value': '2232'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after format-specific '
+                                                       'filtering',
+                                                'value': '2232'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after length filtering',
+                                                'value': '2232'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'after undetermined '
+                                                       'bases filtering',
+                                                'value': '2232'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted CDS',
+                                                'value': '2219'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with predicted RNA',
+                                                'value': '7'},
+                                               {'key': 'Nucleotide sequences '
+                                                       'with InterProScan '
+                                                       'match',
+                                                'value': '2102'},
+                                               {'key': 'Predicted CDS',
+                                                'value': '7890'},
+                                               {'key': 'Predicted CDS with '
+                                                       'InterProScan match',
+                                                'value': '6631'},
+                                               {'key': 'Total InterProScan '
+                                                       'matches',
+                                                'value': '27539'}],
+                          'complete-time': '2019-06-17T00:00:00',
+                          'experiment-type': 'assembly',
+                          'instrument-model': 'Illumina HiSeq 2000',
+                          'instrument-platform': 'ILLUMINA',
+                          'pipeline-version': '4.1'},
+           'id': 'MGYA00375940',
+           'links': {'self': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940'},
+           'relationships': {'assembly': {'data': {'id': 'ERZ782906',
+                                                   'type': 'assemblies'},
+                                          'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/assemblies/ERZ782906'}},
+                             'downloads': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940/downloads'}},
+                             'go-slim': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940/go-slim'}},
+                             'go-terms': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940/go-terms'}},
+                             'interpro-identifiers': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940/interpro-identifiers'}},
+                             'run': {'data': {'data': None}},
+                             'sample': {'data': {'id': 'SRS927173',
+                                                 'type': 'samples'},
+                                        'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS927173'}},
+                             'study': {'data': {'id': 'MGYS00005034',
+                                                'type': 'studies'},
+                                       'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034'}},
+                             'taxonomy': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940/taxonomy'}},
+                             'taxonomy-lsu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940/taxonomy/lsu'}},
+                             'taxonomy-ssu': {'links': {'related': 'https://www.ebi.ac.uk/metagenomics/api/v1/analyses/MGYA00375940/taxonomy/ssu'}}},
+           'type': 'analysis-jobs'}],
+ 'links': {'first': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034/analyses?page=1',
+           'last': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034/analyses?page=2',
+           'next': 'https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005034/analyses?page=2',
+           'prev': None},
+ 'meta': {'pagination': {'count': 33, 'page': 1, 'pages': 2}}}
