@@ -23,12 +23,16 @@ def get_abstract(filename):
         this_readme = content_file.read()
         answer = '#'
         whitelines = 0
-        for line in this_readme.splitlines():
-            answer = answer + line + '\n'
-            if len(line)==0:
-                whitelines += 1
-            if whitelines > 1:
-                return answer
+        try:
+            for line in this_readme.splitlines():
+                answer = answer + line + '\n'
+                if len(line)==0:
+                    whitelines += 1
+                if whitelines > 1:
+                    return answer
+        except Exception as e:
+            eprint("Readme not found for {}".format(filename))
+            return ''
 
 
 

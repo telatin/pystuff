@@ -11,3 +11,7 @@ This script is made to compare VCFs produced by SNIPPY (one VCF per sample), whe
 
 A tool to produce a bed file from the output of 'samtools depth [-a]'
 
+## Instatigram
+
+![Alpha release](https://img.shields.io/badge/Release-ALPHA-red.svg)
+
