@@ -19,11 +19,11 @@ def eprint(*args, **kwargs):
 
 
 def get_abstract(filename):
-    with open(file + '/README.md', 'r') as content_file:
+    with open(filename, 'r') as content_file:
         this_readme = content_file.read()
         answer = '#'
         whitelines = 0
-        link = " [more...]({}/README.md)".format(filename)
+        link = " [more...]({})".format(filename)
         try:
             for line in this_readme.splitlines():
                 answer = answer + line + '\n'
