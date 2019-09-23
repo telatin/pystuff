@@ -26,11 +26,12 @@ def get_abstract(filename):
         link = " [more...]({})".format(filename)
         try:
             for line in this_readme.splitlines():
-                answer = answer + line + '\n'
+                answer += line
                 if len(line)==0:
                     whitelines += 1
                 if whitelines > 1:
-                    return answer + link + '\n'
+                    return answer + link + '\n\n'
+                answer += '\n'
         except Exception as e:
             eprint("Readme not found for {}".format(filename))
             return ''
