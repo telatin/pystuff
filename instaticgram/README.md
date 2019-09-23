@@ -1,8 +1,9 @@
 # Instatigram
 
+A script to convert the _Instagram_ backup (a set of photos and JSON files) into a static website (see [my example gallery](https://telatin.com/pics/instagram)).
+
 ![Alpha release](https://img.shields.io/badge/Release-ALPHA-red.svg)
 
-A script to convert the _Instagram_ backup (a set of photos and JSON files) into a static website (see [my example gallery](https://telatin.com/pics/instagram)).
 
 This is currently a working *prototype*.
 
