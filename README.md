@@ -10,7 +10,7 @@ A tool to produce a bed file from the output of 'samtools depth [-a]'
 
 ## Instatigram
 
-![Alpha release](https://img.shields.io/badge/Release-ALPHA-red.svg)
+A script to convert the _Instagram_ backup (a set of photos and JSON files) into a static website (see [my example gallery](https://telatin.com/pics/instagram)).
  [more...](instaticgram/README.md)
 
 ## Clean OTU table
