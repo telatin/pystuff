@@ -1,0 +1,5 @@
+setup.py
+src/revcomp.egg-info/PKG-INFO
+src/revcomp.egg-info/SOURCES.txt
+src/revcomp.egg-info/dependency_links.txt
+src/revcomp.egg-info/top_level.txt
