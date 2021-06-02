@@ -1,3 +1,4 @@
+README.md
 setup.py
 src/revcomp.egg-info/PKG-INFO
 src/revcomp.egg-info/SOURCES.txt

@@ -1,6 +1,5 @@
 def revcompl(dna):
-  dna = dna[::-1]
-  return dna.translate(str.maketrans(
+  return dna[::-1].translate(str.maketrans(
   	"ACGTUYRKMBDHVacgtuyrkmbdhv", 
   	"TGCAARYMKVHDBtgcaarymkvhdb"))
   
